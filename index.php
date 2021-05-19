@@ -12,6 +12,7 @@ session_start();
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/index.css">
     <title>Document</title>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
 </head>
 <body>
     <div class="header">
@@ -25,6 +26,9 @@ session_start();
                     <input type="text" placeholder="Enter Email" name="logusername" id="logid" required>
                     <span>Password</span>
                     <input type="text" placeholder="Enter Password" name="logpassword" id="logpass" required>
+                    <i class="far fa-eye" id="togglePassword"></i>
+                    <script src="js/app.js"></script>
+                    
                     <input type="submit" name="login" class="" id="login" value="Login">
                 </form>
             </div>
@@ -50,7 +54,7 @@ session_start();
 
                 <div class="col manully">
                     <div class="md-lg">
-                        <h3>Login Mennully</h3>
+                        <h3>Login Mannully</h3>
                     </div>
 
                     <a href="#" class="fb btn">
@@ -110,4 +114,4 @@ session_start();
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
     <script type="text/javascript" src="js/validation.js"></script>
 </body>
-</html>
+</html> 
