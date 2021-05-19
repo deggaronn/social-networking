@@ -20,16 +20,34 @@ session_start();
             <h1>FriendBook</h1>
         </div>
         <div class="second-half">
-            <span>Email Or Username</span>
+
             <div class="sm-view">
                 <form action="" id="loginform" method="post">
-                    <input type="text" placeholder="Enter Email" name="logusername" id="logid" required>
-                    <span>Password</span>
-                    <input type="text" placeholder="Enter Password" name="logpassword" id="logpass" required>
+                    <input type="text" placeholder="Enter Email or username" name="logusername" id="logid" required style="  width: 50%;
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  margin: 5px 0;
+  opacity: 0.85;
+  display: inline-block;
+  font-size: 17px;
+  line-height: 20px;
+  text-decoration: none;">
+                    <input type="text" placeholder="Enter Password" name="logpassword" id="logpass" required style="  width: 50%;
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  margin: 5px 0;
+  opacity: 0.85;
+  display: inline-block;
+  font-size: 17px;
+  line-height: 20px;
+  text-decoration: none;
+  ">
                     <i class="far fa-eye" id="togglePassword"></i>
                     <script src="js/app.js"></script>
-                    
-                    <input type="submit" name="login" class="" id="login" value="Login">
+                    <br>
+                    <input type="submit" name="login" class="" id="login" value="Login"> or <a href="#" style="color: white;"> forgot password</a>
                 </form>
             </div>
         </div>
@@ -48,9 +66,6 @@ session_start();
 
         <form action="/action_page.php">
             <div class="row">
-                <div class="vl">
-                    <span class="vl-innertext">or</span>
-                </div>
 
                 <div class="col manully">
                     <div class="md-lg">
